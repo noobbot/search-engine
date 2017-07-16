@@ -1,0 +1,13 @@
+
+Approach :
+1. Input the text file web.txt which consists of different links to different sites.
+2. Read all the HTML content from the sites(using lxml module) and remove stop words, non-alpabetic and non-english characters(using nltk.corpus).
+3. Map each unique word from step 2 with the web links in which they occur in trei structure(using defaultdictionary)
+and count all repeated occurrences for ranking and use Counter to store and sort .
+4. Run the python file and search for words.
+5. The code will return the list of links in which the input word appears sorted by the number of times it occurs(descending).
+
+environment specs:
+Anaconda 4.3.0 Python 3.6.0
+Spyder
+IPython console
